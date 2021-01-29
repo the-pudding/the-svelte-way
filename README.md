@@ -2,7 +2,7 @@
 
 ## Code
 
-- [Episode 1](src/components/episodes/e1)
+- [Episode 1](src/components/episodes/e1/Root.svelte)
 
 # Development
 
