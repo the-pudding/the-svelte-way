@@ -1,5 +1,7 @@
 <script>
-  export let value;
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
+  export let value = "";
 </script>
 
-<input placeholder="who are you?" bind:value />
+<input bind:value on:blur={dispatch("input-blur", value)} />

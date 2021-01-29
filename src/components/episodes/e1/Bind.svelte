@@ -1,8 +1,5 @@
 <script>
-  export let value;
-  // let local;
-  // $: value = local;
+  export let value = "";
 </script>
 
 <input bind:value />
-<!-- <input bind:value={local} /> -->

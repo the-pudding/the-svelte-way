@@ -16,5 +16,6 @@
 
   :global(input, button) {
     font-size: 1em;
+    padding: 0.25em;
   }
 </style>

@@ -1,9 +1,7 @@
 <script>
-  export let cb;
-  let value;
-  $: cb(value);
-  // const onInput = () => cb(value);
+  export let onChange;
+  let value = "";
+  $: onChange(value);
 </script>
 
 <input bind:value />
-<!-- <input bind:value on:input={onInput} /> -->

@@ -1,5 +1,5 @@
 <script>
-  import E1 from "./episodes/e1/E1.svelte";
+  import Root from "./episodes/e1/Root.svelte";
 </script>
 
-<E1 />
+<Root />
