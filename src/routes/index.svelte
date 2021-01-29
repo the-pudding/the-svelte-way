@@ -6,7 +6,7 @@
   <App />
 </main>
 
-<style>
+<style global>
   :global(main) {
     font-family: sans-serif;
     font-size: 24px;
