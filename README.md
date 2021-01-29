@@ -1,4 +1,10 @@
-# create-svelte
+# The Svelte Way
+
+## Code
+
+- [Episode 1](src/components/episodes/e1)
+
+# Development
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
