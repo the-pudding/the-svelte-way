@@ -1,8 +1,12 @@
 # The Svelte Way
 
-## Code
+## YouTube Series
 
-- [Episode 1](src/components/episodes/e1/Root.svelte)
+[Series playlist](https://www.youtube.com/playlist?list=PLsuhXm2zs07I41WG3CReawQhTNNAsZiG-)
+
+## Episodes
+
+- Episode 1: [Code](src/components/episodes/e1/Root.svelte) - [Video](https://www.youtube.com/watch?v=lqvY_0gJf_I&list=PLsuhXm2zs07I41WG3CReawQhTNNAsZiG-&index=1)
 
 # Development
 
