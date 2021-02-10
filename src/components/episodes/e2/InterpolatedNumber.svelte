@@ -1,17 +1,20 @@
 <script>
   import { tweened } from "svelte/motion";
+  import { cubicInOut, backIn } from "svelte/easing";
 
   export let value = 0;
 
   const localValue = tweened(value, {
     duration: 1000,
-    delay: 0
+    delay: 0,
+    // easing: cubicInOut
   });
 
   const updateLocalValue = () => {
-    localValue.set(value);
+    const duration = Math.abs($localValue - value) * 100;
+    localValue.set(value, { duration });
   };
   $: value, updateLocalValue();
 </script>
 
-<div>{Math.round($localValue)}</div>
+<p>{Math.round($localValue)}</p>
