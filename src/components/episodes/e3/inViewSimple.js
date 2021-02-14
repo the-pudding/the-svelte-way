@@ -1,12 +1,14 @@
 export default function inView(node) {
 	const handleIntersect = (e) => {
-		node.dispatchEvent(new CustomEvent("intersect", { detail: e[0].isIntersecting }));
+		node.dispatchEvent(new CustomEvent("intersect", {
+			detail: e[0].isIntersecting
+		}));
 	};
-	
+
 	const root = null;
-	const rootMargin = `-200px 0px -200px 0px`;
+	const rootMargin = `0px 0px -300px 0px`;
 	const options = { root, rootMargin };
-	const observer = new IntersectionObserver(handleIntersect, options);;
+	const observer = new IntersectionObserver(handleIntersect, options);
 	observer.observe(node);
 
 	return {

@@ -4,10 +4,6 @@
 
 [Series playlist](https://www.youtube.com/playlist?list=PLsuhXm2zs07I41WG3CReawQhTNNAsZiG-)
 
-## Episodes
-
-- Episode 1: [Code](src/components/episodes/e1/Root.svelte) - [Video](https://www.youtube.com/watch?v=lqvY_0gJf_I&list=PLsuhXm2zs07I41WG3CReawQhTNNAsZiG-&index=1)
-
 # Development
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
